@@ -35,8 +35,12 @@ let
     J3 = -0.204;
     J4 = 0.278;
     J5 = 0.402
-    temperature = LinRange(9.99,8.001,10)
 
+    temp_max = 9.99
+    temp_min = 8.01
+    number_of_points = 10
+
+    temperature = LinRange(temp_max,temp_min,number_of_points)
     cool_system_down(J1,J2,J3,J4,J5,h,D,temperature)
 
 end
