@@ -36,8 +36,8 @@ let
     J4 = 0.278;
     J5 = 0.402
 
-    temp_max = 9.99
-    temp_min = 8.01
+    temp_max = 3.99
+    temp_min = 2.01
     number_of_points = 10
 
     if temp_max <= temp_min 
